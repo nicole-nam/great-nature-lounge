@@ -1,0 +1,18 @@
+.header {
+  &__hero {
+    position: relative;
+
+    height: 70vh;
+    width: 100%;
+  }
+
+  &__title {
+    text-align: center;
+    width: 100%;
+
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

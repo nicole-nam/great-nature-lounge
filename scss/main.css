@@ -1,0 +1,49 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.text-primary {
+  font-size: 10rem;
+  color: #f6f5f3;
+}
+
+.text-secondary {
+  font-size: 3rem;
+  color: #f6f5f3;
+  text-transform: uppercase;
+}
+
+.header__hero {
+  position: relative;
+  height: 70vh;
+  width: 100%;
+}
+
+.header__title {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+/*# sourceMappingURL=main.css.map */
