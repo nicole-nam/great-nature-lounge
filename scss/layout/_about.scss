@@ -1,0 +1,23 @@
+.main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: $color-dark-blue;
+
+  &__image {
+    height: 70rem;
+    width: 80%;
+    margin: 0 auto;
+    padding: 7rem 0;
+    grid-column: 1/2;
+  }
+
+  &__about {
+    grid-column: 2/-1;
+    background-color: $color-light-ivory;
+
+    padding: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
