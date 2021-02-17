@@ -7,6 +7,11 @@
   color: $color-dark-blue;
   font-size: 8rem;
   padding-bottom: 2rem;
+
+  &-light {
+    color: $color-light-ivory;
+    font-size: 8rem;
+  }
 }
 
 .text-tertiary {
@@ -17,6 +22,11 @@
   &-dark {
     color: $color-dark-blue;
     font-size: 2rem;
+  }
+
+  &-light {
+    color: $color-light-ivory;
+    font-size: 1.5rem;
   }
 }
 

@@ -1,3 +1,16 @@
-.testimonials{
-    text-align: center;
+.testimonials {
+  text-align: center;
+  background-color: $color-dark-blue;
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  &__image {
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+  }
 }
