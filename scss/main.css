@@ -47,7 +47,7 @@ body {
 
 .header__hero {
   position: relative;
-  height: 50vh;
+  height: 40vh;
   width: 100%;
   background-image: url("/img/hero.png");
   background-size: cover;
@@ -59,7 +59,7 @@ body {
   text-align: center;
   width: 100%;
   position: absolute;
-  top: 25%;
+  top: 20%;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -74,7 +74,7 @@ body {
 }
 
 .main__image {
-  height: 70rem;
+  height: 60rem;
   width: 80%;
   margin: 0 auto;
   padding: 7rem 0;
