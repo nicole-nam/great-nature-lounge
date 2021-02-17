@@ -1,9 +1,13 @@
 .header {
   &__hero {
     position: relative;
-
-    height: 60vh;
+    height: 50vh;
     width: 100%;
+
+    background-image: url("/img/hero.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
   &__title {
