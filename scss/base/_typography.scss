@@ -4,10 +4,9 @@
 }
 
 .text-secondary {
-  color: black;
+  color: $color-dark-blue;
   font-size: 8rem;
   padding-bottom: 2rem;
-  padding-right: 5rem;
 }
 
 .text-tertiary {
@@ -16,9 +15,12 @@
   text-transform: uppercase;
 
   &-dark {
-    color: black;
+    color: $color-dark-blue;
     font-size: 2rem;
-    border-top: 5px solid black;
-    padding-top: 3rem;
   }
+}
+
+hr {
+  height: 0.5rem;
+  background-color: black;
 }
